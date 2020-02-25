@@ -1,0 +1,38 @@
+.Messages {
+    /* flex-grow: 1; */
+    /* overflow: hidden; */
+}
+
+.Messages ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+
+.Message {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Message-layout-left {}
+.Message-layout-right {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.Message-avatar {
+    width: 40px;
+    height: 40px;
+}
+.Message-avatar img {
+    max-width: 100%;
+}
+
+.Message-meta {}
+    .Message-username {}
+    .Message-time {}
+
+.Message-content {}

@@ -1,0 +1,21 @@
+.SidebarMenu-title {}
+.SidebarMenu-list {
+    list-style-type: none;
+}
+
+.SidebarMenu-list li {
+    padding: 2px 0 2px 4px;
+}
+
+.SidebarMenu-list li button {
+    display: block;
+    cursor: pointer;
+    color: #ffffff;
+    background: transparent;
+    border: 0;
+    font-size: 1rem;
+}
+
+.SidebarMenu-list .active {
+    background: black;
+}
